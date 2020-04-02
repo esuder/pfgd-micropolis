@@ -48,6 +48,9 @@ class BuildingTool extends ToolStroke
 
 		case NUCLEAR:
 			return applyZone(eff, NUCLEAR);
+			
+		//case NEW_BUILDING:
+			//return applyZone(eff, NEW_BUILDING_ID); //TODO: make this make NEW_BUILDINGs
 
 		case AIRPORT:
 			return applyZone(eff, AIRPORT);

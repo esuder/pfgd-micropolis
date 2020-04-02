@@ -29,6 +29,7 @@ public enum MicropolisTool
 	POWERPLANT(4, 3000),
 	NUCLEAR(4, 5000),
 	AIRPORT(6, 10000),
+	NEW_BUILDING(1, 10), //blank to be made into something later
 	QUERY(1, 0);
 
 	int size;
@@ -56,6 +57,9 @@ public enum MicropolisTool
 		case BULLDOZER:
 			return new Bulldozer(engine, xpos, ypos);
 
+		case NEW_BUILDING:
+			return new Airtanker(engine, xpos, ypos);
+			
 		case WIRE:
 		case ROADS:
 		case RAIL:

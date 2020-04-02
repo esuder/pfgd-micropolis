@@ -1009,3 +1009,8 @@
 957   misc_animation@0,2080
 958   misc_animation@0,2096
 959   misc_animation@0,2112
+# BEGIN NEW BUILDING #
+960   new_building@0,0           (conducts)
+961   new_building@16,0          (conducts)
+962   new_building@32,0          (conducts)
+963   new_building@0,16          (conducts)
