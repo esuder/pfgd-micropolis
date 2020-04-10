@@ -29,7 +29,7 @@ public enum MicropolisTool
 	POWERPLANT(4, 3000),
 	NUCLEAR(4, 5000),
 	AIRPORT(6, 10000),
-	NEW_BUILDING(1, 10), //blank to be made into something later
+	NEW_BUILDING(1, 3),
 	QUERY(1, 0);
 
 	int size;

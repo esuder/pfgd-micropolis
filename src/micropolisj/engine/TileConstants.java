@@ -151,7 +151,6 @@ public class TileConstants
 	static final char VBRDG2 = 950;
 	static final char VBRDG3 = 951;
 	
-	//static final char NEW_BUILDING_ID = 956; //TODO: make this the right number
 	public static final char LAST_TILE = 956;
 
 	static final char [] RoadTable = new char[] {
